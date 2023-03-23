@@ -15,7 +15,7 @@
   --color-background: #f6f6f9;
 }
 
-body {
+* {
   font-family: "Roboto Condesed", sans-serif;
 }
 
@@ -167,5 +167,31 @@ nav ul li {
   100% {
     filter: blur(0);
     transform: scale(1);
+  }
+}
+
+/******* ABOUT ME *********/
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 25%;
+  padding: 0.3rem;
+  border: 2px solid var(--color-warning);
+}
+
+.about {
+  color: var(--color-warning);
+  text-transform: uppercase;
+  
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 10rem;
   }
 }
