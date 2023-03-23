@@ -9,9 +9,9 @@ const Header = () => {
             <h2>Software Developer</h2>
             <Typed
             className="typed-text"
-            strings={["HTML", "CSS", "JavaScript", "ReactJS", "Bootstrap", "Python",]}
-            typeSpeed={40}
-            backSpeed={40}
+            strings={["HTML", "CSS", "JavaScript", "ReactJS", "Bootstrap", "Python", "Git", "Heroku"]}
+            typeSpeed={70}
+            backSpeed={70}
             loop
             />
             <a href="#" className="btn-main-offer">Contact Me</a>

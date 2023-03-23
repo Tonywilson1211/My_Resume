@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
   --color-primary: #7380ec;
@@ -81,7 +81,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Roboto Condesed", sans-serif;
+  font-family: "Libre Baskerville", sans-serif;
   z-index: 1;
 }
 
@@ -92,9 +92,16 @@ nav ul li {
 
 .main-info h1 {
   color: var(--color-warning);
+  font-size: 2em;
+ 
+  padding-bottom: 10px;
+  
+  border-bottom: 3px solid #e3e3eb;
+  letter-spacing: 10px;
 }
 
 .main-info h2 {
+  padding-top: 5px;
   color: var(--color-warning);
   
 }
@@ -140,4 +147,30 @@ canvas {
   background-size: cover;
   background-position: 50% 50%;
   z-index: 1;
+}
+
+/*ANimation stuff*/
+.main-info {
+  animation-name: zoomIn;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.3);
+    filter: blur(10px);
+  }
+  40% {
+    transform: scale(1);
+  }
+  100% {
+    filter: blur(0);
+    transform: scale(1);
+  }
 }
