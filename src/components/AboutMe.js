@@ -12,7 +12,7 @@ const AboutMe = () => {
             </div>
             <div className='col-lg-6 col-xm-12'>
                 <h1 className='about'>About Me</h1>
-                <p>
+                <p className='about-text'>
                 In my search for a new challenge where I can leverage my skills and experience in software development, 
                 I was pleased to find Apple’s opening for the UK Software Engineering Apprenticeship. 
 

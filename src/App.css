@@ -97,6 +97,7 @@ nav ul li {
   padding-bottom: 10px;
   border-bottom: 3px solid #e3e3eb;
   letter-spacing: 5px;
+  font-family: "Libre Baskerville", sans-serif;
 }
 
 .main-info h2 {
@@ -145,7 +146,7 @@ nav ul li {
   z-index: 1;
 }
 
-/*ANimation stuff*/
+/*Animation stuff*/
 .main-info {
   animation-name: zoomIn;
   animation-duration: 1.5s;
@@ -178,6 +179,7 @@ nav ul li {
 }
 
 .profile-img {
+  margin-top: 3rem;
   width: 16rem;
   border-radius: 25%;
   padding: 0.3rem;
@@ -185,9 +187,14 @@ nav ul li {
 }
 
 .about {
+  text-align: center;
   color: var(--color-warning);
   text-transform: uppercase;
   
+}
+
+.about-text {
+  text-align: justify;
 }
 
 @media(max-width: 468px) {
