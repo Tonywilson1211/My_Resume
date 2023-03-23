@@ -60,8 +60,59 @@ nav ul li {
 
 .header-wraper {
   position: relative;
-  background: url("../assets/images/site/background.jpg");
+  background: url(background33.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condesed", sans-serif;
+}
+
+.main-info h1 {
+  color: var(--color-warning);
+}
+
+.main-info h2 {
+  color: var(--color-warning);
+  
+}
+
+/******** TYPED TEXT *******/
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+/******** MAIN OFFER BUTTON *******/
+
+.btn-main-offer {
+  border: 1px solid var(--color-warning);
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 10px 12px;
+  color: var(--color-white);
+  margin-top: 2rem;
+}
+
+/******** PARTICLES JS *******/
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw; 
+  z-index: 1;
 }
