@@ -19,7 +19,7 @@ body {
   font-family: "Roboto Condesed", sans-serif;
 }
 
-/*******NAVBAR LINKS*********/
+/******* NAVBAR LINKS *********/
 nav a.nav-link {
   letter-spacing: 0.0375rem;
   cursor: pointer;
@@ -55,3 +55,13 @@ nav ul li {
   color: var(--color-white) !important;
 }
 
+
+/******* HEADER *********/
+
+.header-wraper {
+  position: relative;
+  background: url("../assets/images/site/background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
