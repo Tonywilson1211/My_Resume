@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Tonywilson1211/My_Resume/static/css/main.820e040b.chunk.css",
-    "main.js": "/Tonywilson1211/My_Resume/static/js/main.cd21c523.chunk.js",
-    "main.js.map": "/Tonywilson1211/My_Resume/static/js/main.cd21c523.chunk.js.map",
-    "runtime-main.js": "/Tonywilson1211/My_Resume/static/js/runtime-main.1fdd16cd.js",
-    "runtime-main.js.map": "/Tonywilson1211/My_Resume/static/js/runtime-main.1fdd16cd.js.map",
-    "static/css/2.f0e33c08.chunk.css": "/Tonywilson1211/My_Resume/static/css/2.f0e33c08.chunk.css",
-    "static/js/2.7e018ee8.chunk.js": "/Tonywilson1211/My_Resume/static/js/2.7e018ee8.chunk.js",
-    "static/js/2.7e018ee8.chunk.js.map": "/Tonywilson1211/My_Resume/static/js/2.7e018ee8.chunk.js.map",
-    "index.html": "/Tonywilson1211/My_Resume/index.html",
-    "precache-manifest.7abbde651f3c8f4e21f041c2c60ce2cd.js": "/Tonywilson1211/My_Resume/precache-manifest.7abbde651f3c8f4e21f041c2c60ce2cd.js",
-    "service-worker.js": "/Tonywilson1211/My_Resume/service-worker.js",
-    "static/css/2.f0e33c08.chunk.css.map": "/Tonywilson1211/My_Resume/static/css/2.f0e33c08.chunk.css.map",
-    "static/css/main.820e040b.chunk.css.map": "/Tonywilson1211/My_Resume/static/css/main.820e040b.chunk.css.map",
-    "static/media/App.css": "/Tonywilson1211/My_Resume/static/media/background33.50a207ee.jpg"
+    "main.css": "/My_Resume/static/css/main.af9a0658.chunk.css",
+    "main.js": "/My_Resume/static/js/main.70ce3a34.chunk.js",
+    "main.js.map": "/My_Resume/static/js/main.70ce3a34.chunk.js.map",
+    "runtime-main.js": "/My_Resume/static/js/runtime-main.2a3987b8.js",
+    "runtime-main.js.map": "/My_Resume/static/js/runtime-main.2a3987b8.js.map",
+    "static/css/2.f0e33c08.chunk.css": "/My_Resume/static/css/2.f0e33c08.chunk.css",
+    "static/js/2.7e018ee8.chunk.js": "/My_Resume/static/js/2.7e018ee8.chunk.js",
+    "static/js/2.7e018ee8.chunk.js.map": "/My_Resume/static/js/2.7e018ee8.chunk.js.map",
+    "index.html": "/My_Resume/index.html",
+    "precache-manifest.4605575c65b99618caafcef27c972422.js": "/My_Resume/precache-manifest.4605575c65b99618caafcef27c972422.js",
+    "service-worker.js": "/My_Resume/service-worker.js",
+    "static/css/2.f0e33c08.chunk.css.map": "/My_Resume/static/css/2.f0e33c08.chunk.css.map",
+    "static/css/main.af9a0658.chunk.css.map": "/My_Resume/static/css/main.af9a0658.chunk.css.map",
+    "static/media/App.css": "/My_Resume/static/media/background33.50a207ee.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1fdd16cd.js",
+    "static/js/runtime-main.2a3987b8.js",
     "static/css/2.f0e33c08.chunk.css",
     "static/js/2.7e018ee8.chunk.js",
-    "static/css/main.820e040b.chunk.css",
-    "static/js/main.cd21c523.chunk.js"
+    "static/css/main.af9a0658.chunk.css",
+    "static/js/main.70ce3a34.chunk.js"
   ]
 }
