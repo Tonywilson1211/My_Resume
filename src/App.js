@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Particle from './components/Particle';
 import Education from './components/Education';
+import History from './components/History';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Header/>
       <AboutMe/>
       <Education/>
+      <History/>
     </>
   );
 }

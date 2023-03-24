@@ -6,7 +6,7 @@ import { faAward } from "@fortawesome/free-solid-svg-icons";
 const Education = () => {
   return (
     <div className='education'>
-        <h1>Experience</h1>
+        <h1>Technical Experience</h1>
         <div className='py-5'>
             <div className='container'>
                 <div className='row'>
