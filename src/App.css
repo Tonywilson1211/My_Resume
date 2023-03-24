@@ -15,10 +15,6 @@
   --color-background: #f6f6f9;
 }
 
-* {
-  font-family: "Roboto Condesed", sans-serif;
-}
-
 /******* NAVBAR LINKS *********/
 
 nav {
@@ -65,7 +61,7 @@ nav ul li {
 
 .header-wraper {
   position: relative;
-  background: url(background33.jpg) no-repeat;
+  background: url(images/background33.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -83,11 +79,12 @@ nav ul li {
   align-items: center;
   text-align: center;
   font-family: "Libre Baskerville", sans-serif;
-  z-index: 1;
+  z-index: 2;
 }
 
 .btn-main-offer:hover {
   color: var(--color-warning);
+  transition: .5s ease;
 
 }
 
@@ -129,9 +126,6 @@ nav ul li {
 }
 
 /******** PARTICLES JS *******/
-
-/* ---- reset ---- */
-
 
 /* ---- tsparticles container ---- */
 #tsparticles {
@@ -184,9 +178,12 @@ nav ul li {
   border-radius: 25%;
   padding: 0.3rem;
   border: 2px solid var(--color-warning);
+  z-index: 2;
 }
 
 .about {
+  font-size: 2rem;
+  font-family: "Libre Baskerville", sans-serif;
   text-align: center;
   color: var(--color-warning);
   text-transform: uppercase;
@@ -194,6 +191,7 @@ nav ul li {
 }
 
 .about-text {
+  font-family: "Roboto Condensed";
   text-align: justify;
 }
 
@@ -201,4 +199,31 @@ nav ul li {
   .profile-img {
     width: 10rem;
   }
+}
+
+/******** EDUCATION *******/
+
+.box {
+  padding: 10rem 0;
+  border: 1px solid var(--color-warning);
+}
+
+.box h3, p {
+  font-family: "Roboto Condensed";
+  text-align: center;
+  
+}
+
+.education {
+  background: var(--color-light);
+  
+}
+
+.education h1 {
+  font-size: 2rem;
+  font-family: "Libre Baskerville", sans-serif;
+  text-align: center;
+  padding-top: 2rem;
+  color: var(--color-warning);
+  text-transform: uppercase;
 }
