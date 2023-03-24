@@ -4,10 +4,10 @@
   --color-primary: #7380ec;
   --color-danger: #ff7782;
   --color-success: #41f1b6;
-  --color-warning: #ffbb55;
+  --color-warning: #f0b719;
   --color-white: #fff;
   --color-info-dark: #7d8da1;
-  --color-info-light: #dce1eb;
+  --color-info-light: #f4f4f4;
   --color-dark: #363949;
   --color-light: #rgba(132, 139, 200, 0.18);
   --color-primary-variant: #111e88;
@@ -204,8 +204,14 @@ nav ul li {
 /******** EDUCATION *******/
 
 .box {
-  padding: 10rem 0;
-  border: 1px solid var(--color-warning);
+  padding: 10px;
+  height: 22rem;
+  background: var(--color-white);
+  border-bottom: 4px solid var(--color-dark);
+}
+
+.box:hover {
+  border-bottom: 4px solid var(--color-warning);
 }
 
 .box h3, p {
@@ -215,8 +221,7 @@ nav ul li {
 }
 
 .education {
-  background: var(--color-light);
-  
+  background: var(--color-dark);
 }
 
 .education h1 {
@@ -227,3 +232,20 @@ nav ul li {
   color: var(--color-warning);
   text-transform: uppercase;
 }
+
+.education h3 {
+  color: var(--color-info-dark);
+}
+
+.education p {
+  color: var(--color-dark);
+}
+
+.circle {
+  padding: 0.75rem 0;
+  text-align: center;
+  background: var(--color-warning);
+  margin-bottom: 15px;
+  z-index: 2;
+}
+

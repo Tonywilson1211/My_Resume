@@ -26,19 +26,19 @@ function Particle () {
                 fpsLimit: 60,
                 interactivity: {
                     events: {
-                        onClick: { enable: true, mode: "attract" },
+                        onClick: { enable: true, mode: "repulse" },
                         onHover: {
                             enable: true,
                             mode: "attract",
                         }
                     },
                     modes: {
-                    attract: { distance: 500 }
+                    attract: { distance: 400 }
                     }
                 },
                 particles: {
                     number: {
-                        value: 25,
+                        value: 200,
                         density: {
                             enable: true,
                             value_area: 500
@@ -47,26 +47,24 @@ function Particle () {
                     move: {
                         direction: "none",
                         enable: true,
-                        outModes: "out",
-                        random: true,
-                        speed: 1,
+                        outModes: "in",
+                        random: false,
+                        speed: 0.5,
                         straight: true
                     },
                     shape: {
                         type: "circle",
                         stroke: {
-                            width: 0.1,
-                            color: "##ffbb55"
+                            width: 0,
                         },
                     },
                     opacity: {
-                        value: 0.4,
+                        value: 0.8,
                         random: true,
                         anim: {
                             enable: true,
                             speed: 1,
-                            opacity_min: 0.1,
-                            sync: false
+                            sync: true
                         }
                     },
                     size: {
