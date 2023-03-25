@@ -344,3 +344,24 @@ nav ul li {
     width: 100%;
   }
 }
+
+/******** HISTORY *******/
+
+.portfolio-wrapper {
+  background: var(--color-info-light);
+  margin: 1rem;
+  text-align: center;
+}
+
+.portfolio-image {
+  width: 15rem;
+  border: 1px solid var(--color-warning);
+  height: 9rem;
+  padding: 0.5rem;
+  
+}
+
+.portfolio-image-box img {
+  
+  margin: 0.5rem;
+}

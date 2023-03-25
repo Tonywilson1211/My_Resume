@@ -7,6 +7,7 @@ import AboutMe from "./components/AboutMe";
 import Particle from './components/Particle';
 import Education from './components/Education';
 import History from './components/History';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <AboutMe/>
       <Education/>
       <History/>
+      <Portfolio/>
     </>
   );
 }
