@@ -130,13 +130,8 @@ nav ul li {
 /* ---- tsparticles container ---- */
 #tsparticles {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #0d48a100;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
+  width: 100vh;
+  height: 100vw;
   z-index: 1;
 }
 
@@ -345,7 +340,7 @@ nav ul li {
   }
 }
 
-/******** HISTORY *******/
+/******** PORTFOLIO *******/
 
 .portfolio-wrapper {
   background: var(--color-info-light);
@@ -358,10 +353,70 @@ nav ul li {
   border: 1px solid var(--color-warning);
   height: 9rem;
   padding: 0.5rem;
-  
+  text-align: center;
 }
 
 .portfolio-image-box img {
-  
   margin: 0.5rem;
 }
+
+.portfolio-image-box {
+  text-align: center;
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.image-box-wrapper {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/******** OVERLAY *******/
+
+.overlay {
+  position: absolute;
+  opacity: 0;
+  background: linear-gradient(rgba(0,0,0,0.8),#2f4858);;
+  width: 15rem;
+  height: 9rem;
+  top: 1;
+  border: 1px solid var(--color-warning);
+  cursor: pointer;
+  margin: 0.5rem;
+  
+}
+
+.portfolio-image-box:hover .overlay {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -9rem;
+  margin-top: 4.3rem;
+  color: var(--color-warning);
+  font-size: 1.5rem;
+}
+
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.hyperlink {
+  cursor: pointer;
+  color: var(--color-warning);
+}
+
+.hyperlink:hover {
+  cursor: pointer;
+  color: var(--color-warning);
+}
+
+
+/*********** MODAL **********/ 

@@ -8,6 +8,7 @@ import Particle from './components/Particle';
 import Education from './components/Education';
 import History from './components/History';
 import Portfolio from './components/Portfolio';
+import Modal from './components/Modal';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Education/>
       <History/>
       <Portfolio/>
+      
     </>
   );
 }

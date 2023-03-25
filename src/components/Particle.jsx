@@ -26,31 +26,30 @@ function Particle () {
                 fpsLimit: 60,
                 interactivity: {
                     events: {
-                        onClick: { enable: true, mode: "repulse" },
                         onHover: {
                             enable: true,
-                            mode: "attract",
+                            mode: "repulse",
                         }
                     },
                     modes: {
-                    attract: { distance: 150 }
+                    repulse: { distance: 75 }
                     }
                 },
                 particles: {
                     number: {
-                        value: 50,
+                        value: 10,
                         density: {
-                            enable: true,
+                            enable: false,
                             value_area: 100
                         }
                     },
                     move: {
                         direction: "none",
                         enable: true,
-                        outModes: "in",
+                        outModes: "out",
                         random: false,
-                        speed: 0.5,
-                        straight: true
+                        speed: 10,
+                        straight: false
                     },
                     shape: {
                         type: "circle",
@@ -59,11 +58,11 @@ function Particle () {
                         },
                     },
                     opacity: {
-                        value: 0.8,
+                        value: 1,
                         random: true,
                         anim: {
-                            enable: true,
-                            speed: 1,
+                            enable: false,
+                            speed: 0.1,
                             sync: true
                         }
                     },
@@ -72,9 +71,9 @@ function Particle () {
                         random: true,
                         anim: {
                             enable: true,
-                            speed: 2,
-                            size_min: 0.1,
-                            sync: false
+                            speed: 10,
+                            size_min: 1,
+                            sync: true
                         }
                     },
                 },
