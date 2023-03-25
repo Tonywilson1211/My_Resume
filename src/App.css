@@ -420,3 +420,36 @@ nav ul li {
 
 
 /*********** MODAL **********/ 
+.modal-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.modal-text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.modal-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.modal-link {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+.modal-link:hover {
+  background: #000;
+  color: #fff;
+}
+

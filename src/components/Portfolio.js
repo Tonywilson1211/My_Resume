@@ -50,11 +50,35 @@ const Portfolio = () => {
             <FontAwesomeIcon className="portfolio-icon" icon={faSearch} />
           </div>
         </div>
-        <Modal isOpen={!!selectedImg} onRequestClose={() => setSelectedImg(null)}>
-          {selectedImg && <img src={selectedImg} alt='Selected project screenshot' />}
+        <Modal
+          isOpen={!!selectedImg}
+          onRequestClose={() => setSelectedImg(null)}
+          className='modal'
+          overlayClassName='overlay'
+        >
+          {selectedImg && (
+            <div className='modal-content'>
+              <img
+                src={selectedImg}
+                alt='Selected project screenshot'
+                className='modal-image'
+              />
+              <div className='modal-text'>
+                <h1 className='modal-heading'>Project Name</h1>
+                <p className='modal-description'>
+                  A brief description of the project goes here.
+                </p>
+                <div className='modal-links'>
+                  <a href='#'>Live Site</a>
+                  <a href='#'>GitHub</a>
+                </div>
+              </div>
+            </div>
+          )}
         </Modal>
       </div>
     </div>
-      )}
+  );
+};
 
-export default Portfolio
+export default Portfolio;
