@@ -5,7 +5,7 @@ import sudoku from '../images/sudoku.jpg'
 import photohouse from '../images/photohouse.jpg'
 import quiz from '../images/quiz.jpg'
 import { useState } from 'react';
-import Modal from 'react-modal';
+import Modal from './Modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
@@ -16,7 +16,8 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 
 const Portfolio = () => {
-  const [selectedImg, setSelectedImg] = useState(null);
+
+  const [openModal, setOpenModal] = useState(false)
 
   return (
     <div className='portfolio-wrapper'>
@@ -25,57 +26,41 @@ const Portfolio = () => {
 
         <div className='image-box-wrapper'>
           <div className='portfolio-image-box'>
-            <div className='overlay' onClick={() => setSelectedImg(photohouse)}></div>
+            <div className='overlay' onClick={() => setOpenModal(true)}>
+              <Modal open={openModal} />
+            </div>
             <img className='portfolio-image' src={photohouse} alt='Project screenshot' />
             <FontAwesomeIcon className='portfolio-icon' icon={faSearch} />
           </div>
           <div className='portfolio-image-box'>
-            <div className='overlay' onClick={() => setSelectedImg(sudoku)}></div>
+          <div className='overlay' onClick={() => setOpenModal(true)}>
+              <Modal open={openModal} />
+            </div>
             <img className='portfolio-image' src={sudoku} alt="Sudoku HTML/CSS/JS project game page screenshot"></img>  
             <FontAwesomeIcon className="portfolio-icon" icon={faSearch} />
           </div>
           <div className='portfolio-image-box'>
-            <div className='overlay' onClick={() => setSelectedImg(quiz)}></div>
+          <div className='overlay' onClick={() => setOpenModal(true)}>
+              <Modal open={openModal} />
+            </div>
             <img className='portfolio-image' src={quiz} alt="The Movie Quiz Python project landing page screenshot"></img> 
             <FontAwesomeIcon className="portfolio-icon" icon={faSearch} /> 
           </div>
           <div className='portfolio-image-box'>
-            <div className='overlay' onClick={() => setSelectedImg(dashboard)}></div>
+          <div className='overlay' onClick={() => setOpenModal(true)}>
+              <Modal open={openModal} />
+            </div>
             <img className='portfolio-image' src={dashboard} alt="Dashboard HTML/CSS project landing page screenshot"></img>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearch} />
           </div>
           <div className='portfolio-image-box'>
-            <div className='overlay' onClick={() => setSelectedImg(charityhub)}></div>
+          <div className='overlay' onClick={() => setOpenModal(true)}>
+              <Modal open={openModal} />
+            </div>
             <img className='portfolio-image' src={charityhub} alt="CharityHub HTML/CSS/Python/Bootstrap project landing page screenshot"></img>  
             <FontAwesomeIcon className="portfolio-icon" icon={faSearch} />
           </div>
         </div>
-        <Modal
-          isOpen={!!selectedImg}
-          onRequestClose={() => setSelectedImg(null)}
-          className='modal'
-          overlayClassName='overlay'
-        >
-          {selectedImg && (
-            <div className='modal-content'>
-              <img
-                src={selectedImg}
-                alt='Selected project screenshot'
-                className='modal-image'
-              />
-              <div className='modal-text'>
-                <h1 className='modal-heading'>Project Name</h1>
-                <p className='modal-description'>
-                  A brief description of the project goes here.
-                </p>
-                <div className='modal-links'>
-                  <a href='#'>Live Site</a>
-                  <a href='#'>GitHub</a>
-                </div>
-              </div>
-            </div>
-          )}
-        </Modal>
       </div>
     </div>
   );

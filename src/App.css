@@ -408,48 +408,94 @@ nav ul li {
   cursor: pointer;
 }
 
-.hyperlink {
-  cursor: pointer;
-  color: var(--color-warning);
-}
 
-.hyperlink:hover {
-  cursor: pointer;
-  color: var(--color-warning);
-}
 
 
 /*********** MODAL **********/ 
-.modal-title {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
 
-.modal-text {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 30px;
-}
-
-.modal-links {
+.modalContainer {
+  max-width: 600px;
+  width: 100%;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
+  background-color: #ffffff;
+
+  border-radius: 8px;
 }
 
-.modal-link {
-  display: inline-block;
-  padding: 10px 20px;
-  border: 2px solid #000;
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #000;
+img {
+  width: 250px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
-.modal-link:hover {
-  background: #000;
-  color: #fff;
+.modalRight {
+  width: 100%;
 }
 
+.closeBtn {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+}
+
+.btnContainer {
+  display: flex;
+  padding: 1rem 1rem;
+}
+.btnContainer button {
+  width: 100%;
+  margin: .5rem;
+  padding: 16px 0;
+  /* border: none; */
+  border: 1px solid #411b57;
+  /* color: #ffffff; */
+}
+
+.btnPrimary {
+  background-color: #411b57;
+  color: white;
+}
+
+.btnOutline {
+  /* background-color: #a76a99; */
+  background-color: white;
+  color: #411b57;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 500px) {
+  .modalContainer {
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    height: 100vh;
+  }
+  img {
+    width: 100%;
+    max-height: 70vh;
+    object-fit: cover;
+  }
+
+  .heading {
+    margin: 1rem;
+  }
+}
