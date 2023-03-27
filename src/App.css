@@ -414,7 +414,8 @@ nav ul li {
 /*********** MODAL **********/ 
 
 .portfolio-image-popupbox {
-  width: 50px;
+  width: 65rem;
+  height: 30rem;
   padding: 0 0.5rem;
   
 
@@ -431,4 +432,18 @@ nav ul li {
   cursor: pointer;
   color: var(--color-danger);
   
+}
+
+@media (max-width: 768px) {
+  .portfolio-image-popupbox {
+    width: 100%;
+    height: 60%;
+  }
+}
+
+@media (max-width: 570px) {
+  
+  .portfolio-image-popupbox {
+    width: 50%
+  }
 }
