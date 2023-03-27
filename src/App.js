@@ -8,6 +8,7 @@ import Particle from './components/Particle';
 import Education from './components/Education';
 import History from './components/History';
 import Portfolio from './components/Portfolio';
+import Achievements from './components/Achievements';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Education/>
       <History/>
       <Portfolio/>
+      <Achievements />
       
     </>
   );
