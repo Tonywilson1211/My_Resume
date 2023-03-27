@@ -4,10 +4,10 @@ import AchievementsCarousel from './AchievementsCarousel'
 const Achievements = () => {
   return (
     <div className='achievements'>
-        <h1>Acheivements</h1>
+        <h1 className='text-uppercase text-center py-5'>Achievements</h1>
         <div className='container'>
             <div className='achievements-content'>
-                
+                <AchievementsCarousel />
             </div>
         </div>
     </div>

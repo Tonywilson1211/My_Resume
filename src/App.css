@@ -453,3 +453,60 @@ nav ul li {
     width: 50%
   }
 }
+
+
+/*********** Achievements **********/ 
+
+.achievements h1 {
+  color: var(--color-warning);
+  font-size: 2.5rem;
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+.achievements {
+  background-image: url(./images/cert-background2.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.achievements-content {
+  text-align: center;
+  max-width: 53.125rem;
+  margin: 0 auto 2rem auto;
+  background: rgba(0,0,0,0.9);
+
+}
+
+.myCarousel {
+  color: var(--color-white);
+  background: transparent;
+  margin-top: -6%;
+  width: 54%;
+  margin: 0 auto;
+  padding: 6% 5% 8% 5%;
+  height: 14rem;
+}
+
+.carousel .slide img {
+  margin-top: 1.5rem;
+  width: 18rem !important;
+  
+}
+
+.myCarousel h3 {
+  color: var(--color-warning);
+}
+
+.carousel-root {
+  margin: auto !important;
+  margin-top: 3% !important;
+}
+
+.carousel .slide {
+  height: 100%;
+  padding-top: 2rem;
+}
