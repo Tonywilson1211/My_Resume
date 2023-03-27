@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "adbba9521d786e3119cdf49ec7bdf10c",
+    "revision": "fc4a401f0a056fa224191a4b83670f45",
     "url": "/My_Resume/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_Resume/static/css/2.bbfc1caf.chunk.css"
   },
   {
-    "revision": "bc4677335b5c34af322d",
-    "url": "/My_Resume/static/css/main.1595396b.chunk.css"
+    "revision": "1c9953bbda2cd8cfc149",
+    "url": "/My_Resume/static/css/main.f17b87ef.chunk.css"
   },
   {
     "revision": "0cac7fedf601581ba70e",
     "url": "/My_Resume/static/js/2.4ad78812.chunk.js"
   },
   {
-    "revision": "bc4677335b5c34af322d",
-    "url": "/My_Resume/static/js/main.067297ec.chunk.js"
+    "revision": "1c9953bbda2cd8cfc149",
+    "url": "/My_Resume/static/js/main.9cf46590.chunk.js"
   },
   {
     "revision": "6485ef0e44ee35f11c1a",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_Resume/static/media/background33.50a207ee.jpg"
   },
   {
-    "revision": "2142d61c8a5bfb7f4b2266d52852c8b5",
-    "url": "/My_Resume/static/media/cert-background2.2142d61c.jpg"
+    "revision": "d018fb677e41ff4c145cda7d041e3205",
+    "url": "/My_Resume/static/media/cert-background2.d018fb67.jpg"
   },
   {
     "revision": "de8c23828fde09951a3302dc46835c9d",
