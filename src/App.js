@@ -21,7 +21,7 @@ function App() {
       <Education/>
       <History/>
       <Portfolio/>
-      <Achievements />
+      <Achievements/>
       
     </>
   );

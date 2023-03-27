@@ -15,6 +15,8 @@
   --color-background: #666666;
 }
 
+
+
 /******* NAVBAR LINKS *********/
 
 nav {
@@ -65,6 +67,7 @@ nav ul li {
   background-size: cover;
   background-position: center;
   height: 90vh;
+  z-index: -2;
 }
 
 .main-info {
@@ -79,7 +82,6 @@ nav ul li {
   align-items: center;
   text-align: center;
   font-family: "Libre Baskerville", sans-serif;
-  z-index: 2;
 }
 
 .btn-main-offer:hover {
@@ -130,9 +132,7 @@ nav ul li {
 /* ---- tsparticles container ---- */
 #tsparticles {
   position: absolute;
-  width: 100vh;
-  height: 100vw;
-  z-index: 1;
+  z-index: -1;
 }
 
 /*Animation stuff*/
@@ -203,6 +203,7 @@ nav ul li {
   height: 22rem;
   background: var(--color-white);
   border-bottom: 4px solid var(--color-dark);
+  
 }
 
 .box:hover {
@@ -217,6 +218,10 @@ nav ul li {
 
 .education {
   background: var(--color-dark);
+  background-image: url(./images/background33.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
 }
 
 .education h1 {
@@ -420,8 +425,8 @@ nav ul li {
 /*********** MODAL **********/ 
 
 .portfolio-image-popupbox {
-  width: 65rem;
-  height: 30rem;
+  width: 80%;
+  height: 50%;
   padding: 0 0.5rem;
   
 
@@ -449,11 +454,13 @@ nav ul li {
 
 @media (max-width: 570px) {
   
-  .portfolio-image-popupbox {
-    width: 50%
+  .popupbox-wrapper {
+    width: 100%;
+  }
+  .popupbox-content {
+    width: 100%;
   }
 }
-
 
 /*********** Achievements **********/ 
 
