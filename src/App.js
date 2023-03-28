@@ -9,6 +9,7 @@ import Education from './components/Education';
 import History from './components/History';
 import Portfolio from './components/Portfolio';
 import Achievements from './components/Achievements';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -18,10 +19,13 @@ function App() {
       <Navbar/>
       <Header/>
       <AboutMe/>
-      <Education/>
-      <History/>
       <Portfolio/>
+      <Education/>
       <Achievements/>
+      <History/>
+      <Contact/>
+      
+      
       
     </>
   );

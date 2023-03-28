@@ -177,7 +177,7 @@ fadeInSpeed: 250
 }
 
   return (
-    <div className='portfolio-wrapper'>
+    <div id='portfolio'>
       <div className='container'>
         <h1 className='text-uppercase text-center py-5'>Portfolio</h1>
         <div className='image-box-wrapper'>

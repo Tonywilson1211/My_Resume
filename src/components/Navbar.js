@@ -15,22 +15,25 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">Home <span className="sr-only"></span></a>
+                        <a className="nav-link" href="app.js#navbar">Home <span className="sr-only"></span></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
+                        <a className="nav-link" href="#about">About</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Experience</a>
+                        <a className="nav-link" href="#education">Experience</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Portfolio</a>
+                        <a className="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Contact</a>
+                        <a className="nav-link" href="#achievements">Achievements</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#contact">Contact</a>
                     </li>
                     <li className="nav-item" id="cv">
-                        <a className="nav-link" href="#">Download CV</a>
+                        <a className="nav-link" href="#download">Download CV</a>
                     </li>
                 </ul>
             </div>

@@ -216,7 +216,7 @@ nav ul li {
   
 }
 
-.education {
+#education {
   background: var(--color-dark);
   background-image: url(./images/background33.jpg);
   background-position: center;
@@ -224,7 +224,7 @@ nav ul li {
   z-index: 1;
 }
 
-.education h1 {
+#education h1 {
   font-size: 2rem;
   font-family: "Libre Baskerville", sans-serif;
   text-align: center;
@@ -233,11 +233,11 @@ nav ul li {
   text-transform: uppercase;
 }
 
-.education h3 {
+#education h3 {
   color: var(--color-info-dark);
 }
 
-.education p {
+#education p {
   color: var(--color-dark);
 }
 
@@ -257,7 +257,7 @@ nav ul li {
   overflow: hidden;
 }
 
-.history h1 {
+#history h1 {
   text-transform: uppercase;
   color: var(--color-warning);
   font-family: "Libre Baskerville", sans-serif;
@@ -347,13 +347,13 @@ nav ul li {
 
 /******** PORTFOLIO *******/
 
-.portfolio-wrapper {
+#portfolio {
   background: var(--color-info-light);
   margin: 1rem;
   text-align: center;
 }
 
-.portfolio-wrapper h1 {
+#portfolio h1 {
   color: var(--color-warning);
   font-size: 2.5rem;
   font-family: "Libre Baskerville", sans-serif;
@@ -464,13 +464,13 @@ nav ul li {
 
 /*********** Achievements **********/ 
 
-.achievements h1 {
+#achievements h1 {
   color: var(--color-warning);
   font-size: 2.5rem;
   font-family: "Libre Baskerville", sans-serif;
 }
 
-.achievements {
+#achievements {
   background-image: url(./images/cert-background2.jpg);
   background-size: cover;
   background-position: center;
@@ -516,4 +516,56 @@ nav ul li {
 .carousel .slide {
   height: 100%;
   padding-top: 2rem;
+}
+
+/*********** Contact **********/ 
+
+#contact {
+  background: var(--color-dark);
+  padding: 3rem 0;
+}
+
+#contact h1 {
+  color: var(--color-warning);
+  padding: 1.3rem 0;
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+#contact h1 {
+  text-transform: uppercase;
+}
+
+#contact p {
+  color: var(--color-info-light);
+  font-size: 1.2rem;
+}
+
+/*********** CONTACT INPUT **********/ 
+
+#contact input, #contact textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--color-warning);
+  color: var(--color-info-light);
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1.5rem;
+}
+
+#contact .container {
+  padding: 4rem 0;
+}
+
+#contact input:focus, #contact textarea:focus {
+  background: transparent ;
+  color: var(--color-warning);
+  border-bottom: 0.125rem solid var(--color-warning);
+}
+
+#contact textarea {
+  height: 12.4rem;
+ 
 }
