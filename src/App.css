@@ -549,6 +549,9 @@ nav ul li {
   resize: none;
   border: 0;
   border-bottom: 0.125rem solid var(--color-warning);
+  border-left: 0.125rem solid var(--color-dark);
+  border-right: 0.125rem solid var(--color-dark);
+  border-top: 0.125rem solid var(--color-dark);
   color: var(--color-info-light);
   outline: 0 !important;
   box-shadow: none !important;
@@ -560,12 +563,29 @@ nav ul li {
 }
 
 #contact input:focus, #contact textarea:focus {
-  background: transparent ;
+  background: var(--color-dark) ;
   color: var(--color-warning);
-  border-bottom: 0.125rem solid var(--color-warning);
+  border: 0.125rem solid var(--color-warning);
 }
 
 #contact textarea {
-  height: 12.4rem;
+  height: 14rem;
  
+  flex-direction: ;
+}
+
+.contact-btn {
+  margin: 1rem 0;
+  width: 100%;
+  background: none;
+}
+
+@media (max-width: 768px) {
+  #contact .container {
+    padding: 0 1rem;
+  }
+
+  #contact p {
+    padding: 0 0.4rem;
+  }
 }
