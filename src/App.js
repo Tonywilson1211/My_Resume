@@ -20,8 +20,6 @@ function App() {
       <Header/>
       <AboutMe/>
       <Portfolio/>
-      <Education/>
-      <Achievements/>
       <History/>
       <Contact/>
       
